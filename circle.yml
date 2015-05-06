@@ -1,5 +1,5 @@
 
 notify:
   webhooks:
-    - url: https://circle-callback-test.herokuapp.com/callbacks
+    - url: https://evening-brook-7649.herokuapp.com/callbacks
 
