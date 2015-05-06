@@ -1,0 +1,5 @@
+
+notify:
+  webhooks:
+    - url: https://circle-callback-test.herokuapp.com/callbacks
+
