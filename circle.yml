@@ -3,3 +3,8 @@ notify:
   webhooks:
     - url: https://evening-brook-7649.herokuapp.com/callbacks
 
+deployment:
+  production:
+    branch: master
+    commands:
+      - curl -X POST https://evening-brook-7649.herokuapp.com/callbacks -d "deploy hook from circle ci"
